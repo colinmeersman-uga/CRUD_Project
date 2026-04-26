@@ -1,6 +1,7 @@
 # Networking Tracker (CRUD Application)
+Author: Colin Meersman
 
-A modular, command-line interface (CLI) application built in Python to manage professional networking contacts. This tool uses a local SQLite database to persist data, allowing users to seamlessly track names, companies, roles, emails, and contextual notes from professional encounters. 
+Purpose: A modular, command-line interface (CLI) application built in Python to manage professional networking contacts. This tool uses a local SQLite database to persist data, allowing users to track names, companies, roles, emails, and contextual notes from professional encounters. 
 
 ## Project Architecture
 To ensure clean, maintainable, and reusable code, this project is divided into two distinct modules:
@@ -60,3 +61,4 @@ The "Blank Update" Overwrite Bug: Initially, when updating a contact, pressing "
 Database Primary Keys vs. Indexing: Discovered that deleting a record (e.g., ID 1 or 2) permanently retires that ID due to SQLite's AUTOINCREMENT behavior. This was an important lesson in relational database integrity—Primary Keys are permanent identifiers tied to the data, not just standard list row numbers.
 
 Git Directory Navigation: Overcame fatal: pathspec did not match any files errors by learning to use ls and cd to ensure the terminal was pointing to the correct root directory before staging and committing files.
+
