@@ -18,8 +18,8 @@ To ensure clean, maintainable, and reusable code, this project is divided into t
 1. **Prerequisites:** Ensure you have Python 3 installed on your system. SQLite3 is included in the standard Python library, so no external database installation is required.
 2. **Clone the Repository:**
    ```bash
-   git clone <your-repository-url>
-   cd <your-repository-directory>
+   git clone <https://github.com/colinmeersman-uga/CRUD_Project.git>
+   cd <CRUD_Project>
 
 Initialize the Application:
 Run the main script. The application will automatically generate the records.db SQLite file and build the necessary tables on its first run.
