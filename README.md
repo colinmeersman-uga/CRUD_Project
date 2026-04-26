@@ -51,9 +51,9 @@ Committed modular updates (e.g., separating SQL execution from UI logic).
 Merged features back into main after verifying functionality.
 
 ## Challenges & Learnings
-Building this application presented several excellent learning opportunities regarding command-line environments and relational databases:
+Building this application presented several learning opportunities regarding command-line environments and relational databases:
 
-Terminal vs. Editor Context: Encountered syntax errors (e.g., bash: return: rows: numeric argument required) when accidentally pasting Python code directly into the Bash terminal instead of the script file. This reinforced the boundary between the shell environment and the Python runtime.
+Terminal vs. Editor Context: Encountered syntax errors (e.g., bash: return: rows: numeric argument required) when accidentally pasting Python code directly into the Bash terminal instead of the script file.
 
 The "Blank Update" Overwrite Bug: Initially, when updating a contact, pressing "Enter" to skip a field captured an empty string (""), which overwrote the existing database data. This was solved by implementing a get_contact() read function and using Python's or operator to gracefully fall back to the existing data if the user input was blank.
 
