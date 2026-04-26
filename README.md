@@ -41,7 +41,8 @@ Upon running main.py, you will be presented with an interactive menu:
 
 Type the number corresponding to your desired action and follow the on-screen prompts. Note: When updating or deleting, always refer to the database ID number displayed inside the brackets [ ] next to the contact's name.
 
-Development Process & Git Workflow
+## Development Process & Git Workflow
+
 This project was developed using a standard Git feature-branch workflow to maintain a clean commit history:
 
 Created an isolated branch (setup-database-schema) to build the initial SQLite architecture.
@@ -50,7 +51,7 @@ Committed modular updates (e.g., separating SQL execution from UI logic).
 
 Merged features back into main after verifying functionality.
 
-Challenges & Learnings
+## Challenges & Learnings
 Building this application presented several excellent learning opportunities regarding command-line environments and relational databases:
 
 Terminal vs. Editor Context: Encountered syntax errors (e.g., bash: return: rows: numeric argument required) when accidentally pasting Python code directly into the Bash terminal instead of the script file. This reinforced the boundary between the shell environment and the Python runtime.
