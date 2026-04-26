@@ -1,13 +1,13 @@
-# Command-Line Networking Tracker (CRUD Application)
+# Networking Tracker (CRUD Application)
 
 A modular, command-line interface (CLI) application built in Python to manage professional networking contacts. This tool uses a local SQLite database to persist data, allowing users to seamlessly track names, companies, roles, emails, and contextual notes from professional encounters. 
 
-## Project Architecture (Modularity)
+## Project Architecture
 To ensure clean, maintainable, and reusable code, this project is divided into two distinct modules:
 * `database.py`: Handles all SQLite database connections and executes the core CRUD (Create, Read, Update, Delete) SQL queries.
 * `main.py`: Drives the user interface, processing command-line inputs and routing them to the appropriate database functions.
 
-## Features (Functionality)
+## Features
 * **Create:** Add new contacts with detailed fields (Name, Company, Role, Email, Notes).
 * **Read:** View a formatted list of all saved contacts and their unique database IDs.
 * **Update:** Modify existing contact profiles. Features intelligent input handling that preserves existing data if a field is intentionally left blank during an update.
