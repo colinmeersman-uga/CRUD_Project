@@ -13,7 +13,7 @@ To ensure clean, maintainable, and reusable code, this project is divided into t
 * **Update:** Modify existing contact profiles. Features intelligent input handling that preserves existing data if a field is intentionally left blank during an update.
 * **Delete:** Permanently remove a contact from the database via their unique ID.
 
-## Setup and Installation (Clarity)
+## Setup and Installation
 
 1. **Prerequisites:** Ensure you have Python 3 installed on your system. SQLite3 is included in the standard Python library, so no external database installation is required.
 2. **Clone the Repository:**
@@ -22,10 +22,9 @@ To ensure clean, maintainable, and reusable code, this project is divided into t
    cd <CRUD_Project>
 
 Initialize the Application:
-Run the main script. The application will automatically generate the records.db SQLite file and build the necessary tables on its first run.
-
-Bash
-python main.py
+1. Run the main script.
+2. The application will automatically generate the records.db SQLite file and build the necessary tables on its first run.
+3. In Bash run python main.py
 
 
 Usage
